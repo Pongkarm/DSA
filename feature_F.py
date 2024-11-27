@@ -31,12 +31,12 @@ def Find_r1_series(rt, r2=None, r3=None):
 
 # Test cases
 
-print("Find_rt_parallel(5, 3, 4):", Find_rt_parallel(5, 3, 4))  # Output ความต้านทานรวมในวงจรขนาน
+print("Find_rt_parallel(5, 3, 4):", Find_rt_parallel(8.1,818))  # Output ความต้านทานรวมในวงจรขนาน
 
-print("Find_rt_parallel(R1, R2, R3):", Find_rt_parallel(R1, R2, R3))  # Output ความต้านทานรวมในวงจรขนานจากตัวแปร
+# print("Find_rt_parallel(R1, R2, R3):", Find_rt_parallel(R1, R2, R3))  # Output ความต้านทานรวมในวงจรขนานจากตัวแปร
 
-print(Find_rt_series(R3, R4))
+# print(Find_rt_series(R3, R4))
 
 # คำนวณความต้านทานรวมในวงจรอนุกรม โดยคำนวณค่าความต้านทานจากการรวมผลของวงจรขนานและวงจรอนุกรม
-ex1 = Find_rt_series(R1, R2, Find_rt_parallel(Find_rt_series(R3, R4), R5, R6))
-print("ex1 (Find_rt_series):", ex1)
+# ex1 = Find_rt_series(R1, R2, Find_rt_parallel(Find_rt_series(R3, R4), R5, R6))
+# print("ex1 (Find_rt_series):", ex1)
